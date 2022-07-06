@@ -27,18 +27,9 @@
 
 .main-title {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 30px 0;
-}
-
-.main-info img {
-    width: 100%;
-}
-
-.main-title button {
-    border-radius: 5px;
 }
 
 .main-title p {
@@ -48,6 +39,11 @@
 .main-info h2 {
     margin: 40px 0;
 }
+
+/* .main-info img {
+    width: 700px;
+} */
+
 
 .blog {
     display: flex;

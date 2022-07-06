@@ -22,8 +22,24 @@
     font-weight: 700;
 }
 
-.acc img {
-    width: 65px;
+#header button {
+    background-color: #00A2DC;
+    color: #fff;
+    border: none;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.acc {
+    gap: 20px;
+}
+
+.acc button {
+    border-radius: 5px;
+    width: 100px;
 }
 
 .search button {
@@ -40,3 +56,7 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
+
+/* .acc img {
+    width: 65px;
+} */

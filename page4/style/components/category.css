@@ -1,0 +1,22 @@
+
+
+.categories {
+    background-color: #fff;
+    box-sizing: border-box;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding: 0 20px 0;
+}
+
+.categories a {
+    color: #007BFF;
+    height: 30px;
+    border-bottom: 1px dotted #E7E7E7;
+    margin-top: 10px;
+}
+
+.categories h1 {
+    margin: 35px 0;
+}
