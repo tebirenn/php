@@ -1,0 +1,29 @@
+@import url('vendor/reset.css');
+@import url('components/header.css');
+@import url('components/main.css');
+@import url('components/acc_info.css');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: #00A2DC;
+    color: #fff;
+    border: none;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+body {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #F8F9FA;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 50px;
+}
